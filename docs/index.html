@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Feathery Curtain</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="cv" role="img" aria-label="Feather curtain: touch to begin, drag the silk thread down to unfurl the feathers, then stroke them to hear a soft melody"></canvas>
+  <div class="cap" id="cap">
+    <span class="steps" aria-hidden="true"><i id="dot1" class="on"></i><i id="dot2"></i><i id="dot3"></i></span>
+    <span id="capText">Touch the screen</span>
+  </div>
+  <button id="replay" type="button" aria-label="Start over" hidden>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.6-5.9"/><path d="M4 4.5v4h4"/></svg>
+  </button>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
